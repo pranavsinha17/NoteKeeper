@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_university"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_upload"
+            android:icon="@drawable/ic_upload"
+            android:title="@string/menu_upload" />
+        <item
+            android:id="@+id/nav_ask_quora"
+            android:icon="@drawable/ic_blackboard_1"
+            android:title="@string/menu_ask_questions" />
+        <item
+            android:id="@+id/nav_sell"
+            android:icon="@drawable/ic_buy_sell"
+            android:title="@string/sell_products" />
+        <item
+            android:id="@+id/nav_buy"
+            android:icon="@drawable/ic_buy_sell"
+            android:title="@string/buy_products" />
+        <item
+            android:id="@+id/nav_lost_found"
+            android:icon="@drawable/ic_lost_items"
+            android:title="@string/menu_lost_found" />
+        <item android:id="@+id/nav_brainer"
+            android:title="@string/brain_teaser"
+            android:icon="@drawable/ic_brain_black_24dp"/>
+    </group>
+    <group android:id="@+id/group_divider2" android:checkableBehavior="single">
+        <item android:id="@+id/nav_feedback"
+            android:title="Feedback"
+            android:icon="@drawable/ic_feedback"/>
+        <item android:id="@+id/nav_Share"
+            android:title="Share with Friends"
+            android:icon="@drawable/ic_share"/>
+        <item android:id="@+id/nav_faq"
+            android:title="@string/faq_help"
+            android:icon="@drawable/ic_faq"/>
+        <item android:id="@+id/nav_about_us"
+            android:title="About Developer"
+            android:icon="@drawable/ic_devloper"/>
+        <item android:id="@+id/nav_rate_us"
+            android:title="Rate our App"
+            android:icon="@drawable/ic_rate_us"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/menu_logout" />
+    </group>
+
+</menu>

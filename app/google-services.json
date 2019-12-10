@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "461196206033",
+    "firebase_url": "https://notekeeper-fffb1.firebaseio.com",
+    "project_id": "notekeeper-fffb1",
+    "storage_bucket": "notekeeper-fffb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461196206033:android:bb4f0337576da030c68af0",
+        "android_client_info": {
+          "package_name": "com.capstone.notekeepers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461196206033-hlo5cvf7pbahlkaku98vrkoiuamalgm8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.capstone.notekeepers",
+            "certificate_hash": "a6c5b1aa10c1bdb8c79884652f92e2e4878ca58c"
+          }
+        },
+        {
+          "client_id": "461196206033-a99s02qkbki8e41lisu18gkmabg60fc9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBu01l0SOQdRt8eljYEpvutHgpsD_jhzQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461196206033-a99s02qkbki8e41lisu18gkmabg60fc9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
